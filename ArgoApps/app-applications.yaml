@@ -9,7 +9,7 @@ spec:
   project: webapplications
   source:
     repoURL: https://github.com/hakobmkoyan771/testingInfra.git
-    path: WebApps
+    path: .
     targetRevision: HEAD
   syncPolicy:
     automated:

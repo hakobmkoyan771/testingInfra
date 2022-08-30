@@ -8,7 +8,7 @@ spec:
     namespace: webapps
   project: default
   source:
-    repoURL: https://github.com/armenmelkonyan90/devops_task_ArgoCD.git
+    repoURL: https://github.com/hakobmkoyan771/testingInfra.git
     path: Volumes
     targetRevision: HEAD
   syncPolicy:

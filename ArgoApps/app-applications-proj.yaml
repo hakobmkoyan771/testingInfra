@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ArgoProject
+metadata:
+  name: webapplications
+spec:
+  clusterResourceWhitelist:
+    - group: 'apps/v1'
+      kind: 'Deployment'
+  destinations:
+    - namespace: 'webapps'
+      server: '*'
+  sourceRepos:
+    - 'https://github.com/hakobmkoyan771/testingInfra.git'
+

@@ -6,7 +6,7 @@ spec:
   destination:
     name: in-cluster
     namespace: webapps
-  project: default
+  project: webapplications
   source:
     repoURL: https://github.com/hakobmkoyan771/testingInfra.git
     path: WebApps

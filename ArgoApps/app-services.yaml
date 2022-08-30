@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: service
+  name: identidock
 spec:
   destination:
     name: in-cluster
